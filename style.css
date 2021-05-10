@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 2em 0;
+  background: #f9f9f9;
+}
+
+.card {
+  width: 40%;
+  margin: 1em auto;
+  padding: 1.5em;
+  background: #ffffff;
+  border: 3px solid #e6e6e6;
+  border-radius: 0.5em;
+}
+
+.reviewer-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #161619;
+}
+
+.verified-purchaser {
+  font-size: 12px;
+  color: #2e7d32;
+}
+
+.review-summary {
+  font-size: 12px;
+  font-weight: 600;
+  color: #161619;
+}
+
+.review-description {
+  font-size: 12px;
+  color: #535358;
+}
+
+.margin-bottom {
+  margin-bottom: 16px;
+}
+
+.yellow-star {
+  color: #fda43b;
+}
+
+.grey-star {
+  color: #dbdadb;
+}
+
+.star-section {
+  font-size: 11px;
+  color: #161619;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.review-time {
+  font-size: 10px;
+  color: #535358;
+}
+
+.reviewer-profile {
+  display: flex;
+  align-items: center;
+}
+
+.reviewer-profile img {
+  border-radius: 50%;
+  width: 70px;
+  margin-right: 16px;
+}

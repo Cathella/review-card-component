@@ -4,35 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Review Card Component</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
   </head>
   <body>
-    <main>
-      <div>
-        <section>
-          <img src="" alt="" />
+    <main class="container">
+      <div class="card">
+        <section class="margin-bottom reviewer-profile">
+          <img src="https://avatars.githubusercontent.com/u/4247740?v=4" alt="" class="reviewer-profile" />
           <div>
-            <p>Matthew Folkner</p>
-            <p>Verified purchaser</p>
+            <p class="reviewer-name margin-bottom">Matthew Folkner</p>
+            <p class="verified-purchaser">
+              <span><i class="fas fa-shield-alt"></i></span>
+              Verified purchaser</p>
           </div>
         </section>
-        <section>
-          <h4>Quimbee is the best thing ever. And this goes to two lines</h5>
-          <p>
+        <section class="margin-bottom">
+          <h4 class="review-summary margin-bottom">Quimbee is the best thing ever. And this goes to two lines</h5>
+          <p class="review-description margin-bottom">
             I love Quimbee. It saved me in 1L and it's saving me in 2L. I love
             it all and it's money well spent.
           </p>
-          <div>
+          <div class="star-section">
             <div>
-              <span>Stars</span>
+              <span class="">
+                <i class="fas fa-star yellow-star"></i>
+                <i class="fas fa-star yellow-star"></i>
+                <i class="fas fa-star yellow-star"></i>
+                <i class="fas fa-star yellow-star"></i>
+                <i class="far fa-star grey-star"></i>
+              </span>
               <span>4 out of 5</span>
             </div>
-            <p>for Quimbee Bar Review</p>
+            <p>for <span class="strong">Quimbee Bar Review</span></p>
           </div>
         </section>
         <section>
-          <small>Reviewed 3 days ago</small>
+          <small class="review-time">Reviewed 3 days ago</small>
         </section>
       </div>
     </main>
+
+    <script src="https://kit.fontawesome.com/7290f27402.js" crossorigin="anonymous"></script>
   </body>
 </html>
