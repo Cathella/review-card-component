@@ -1,3 +1,11 @@
 ## Review Card Component
 
-This is a review card component design designed with raw HTML and CSS.
+This is a Review card component design using raw HTML and CSS.
+
+### Desktop view when viewport is (> 992px)
+
+![](desktop.png)
+
+### Mobile view when viewport is (<= 992px)
+
+![](mobile.png)
